@@ -5,7 +5,9 @@ on:
   schedule:   
     # https://crontab.guru/
     # UTC 时间，中国时区应减 8
+    # 中国的23：59
     - cron: '0 15 * * *'
+   
  
 jobs:
   run-check-out: # 任务名
