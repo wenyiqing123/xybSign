@@ -5,7 +5,8 @@ on:
   schedule:   
     # https://crontab.guru/
     # UTC 时间，中国时区应减 8
-    - cron: '0 16 * * *'
+    # 中国的00：01
+    - cron: '1 16 * * *'
  
 jobs:
   run-check-in: # 任务名
