@@ -14,16 +14,18 @@ const config = {
       // needReport: false, //是否自动填写周报
     },
     // 添加多个账户
-    // {
-    //   username: "",
-    //   password: "",
-    //   openId: "",
-    //   unionId: "",
-    //   sign: true, //是否自动签到
-    //   reSign: true, //是否重新签到
-    //   signImagePath: "./images/1.jpeg", //签到图片
-    //   needReport: false, //是否自动填写周报
-    // },
+    {
+        username: "18865008925", //用户名
+        password: "JLJS1q2w3e", //密码
+        openId: "", //微信小程序抓包openid(可选)
+        unionId: "", //微信小程序抓包unionId(可选)
+        sign: true, //是否自动签到
+        reSign: false, //是否重新签到
+        location: "",
+        // location: "120.48587700000007,36.15023000000001", //经纬度 (可选),例如 "120.210792,30.246026"、"经度,纬度",不填写则自动获取（推荐）
+        // signImagePath: "./images/1.jpeg", //签到图片
+        needReport: true, //是否自动填写周报
+      }
   ],
   qmsgKey: "2723fc180edcc6433ba53d052cf24b7d", //qmsg酱key
   qmsgTo: "2402317148", //推送的qq号,用,分隔(可选)
